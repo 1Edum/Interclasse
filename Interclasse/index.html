@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Styles/navbar.css">
+    <link rel="stylesheet" href="/Styles/carrossel.css">
+    <link rel="stylesheet" href="/Styles/cards.css">
+    <script src="./js/navbar.js" defer></script>
+    <title>Interclasse 2023</title>
+</head>
+<body>
+    <header id="inicio">
+        <nav>
+          <div class="logo">
+            <img src="/Img/sesi-logo.webp" alt="">
+          </div>
+          <div class="mobile-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+          <ul class="nav-list">
+            <li class="inicio"><a href="#">Início</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Projetos</a></li>
+            <li><a href="#">Contato</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <!-- Carrossel -->
+        <div class="container">
+          <input type="radio" id="i1" name="images" checked />
+          <input type="radio" id="i2" name="images" />
+          <input type="radio" id="i3" name="images" />
+          <input type="radio" id="i4" name="images" />
+          <input type="radio" id="i5" name="images" />	
+          <div class="slide_img" id="one">			             
+              <img src="/Img/Design sem nome.jpg">
+                <label class="prev" for="i5"><span>&#x2039;</span></label>
+                <label class="next" for="i2"><span>&#x203a;</span></label>	
+          </div>      
+          <div class="slide_img" id="two">          
+              <img src="/Img/Inserir um título.jpg" >             
+                <label class="prev" for="i1"><span>&#x2039;</span></label>
+                <label class="next" for="i3"><span>&#x203a;</span></label>            
+          </div>              
+          <div class="slide_img" id="three">
+              <img src="/Img/Design sem nome.jpg">	
+              
+                <label class="prev" for="i2"><span>&#x2039;</span></label>
+                <label class="next" for="i4"><span>&#x203a;</span></label>
+          </div>
+        
+          <div class="slide_img" id="four">
+              <img src="">	
+              
+                <label class="prev" for="i3"><span>&#x2039;</span></label>
+                <label class="next" for="i5"><span>&#x203a;</span></label>
+          </div>
+        
+          <div class="slide_img" id="five">
+              <img src="">	
+              
+                <label class="prev" for="i4"><span>&#x2039;</span></label>
+                <label class="next" for="i1"><span>&#x203a;</span></label>
+        
+          </div>
+        
+          <div id="nav_slide">
+            <label for="i1" class="dots" id="dot1"></label>
+            <label for="i2" class="dots" id="dot2"></label>
+            <label for="i3" class="dots" id="dot3"></label>
+            <label for="i4" class="dots" id="dot4"></label>
+            <label for="i5" class="dots" id="dot5"></label>
+          </div>
+            
+        </div>
+        <!-- Cards -->
+        <div class="cotainer-times">
+          <h1>
+            Classes Participantes
+          </h1>
+          <div style="display: flex; align-items: center; justify-content: center;">
+          <div class="container-cards">
+            <!-- 9A -->
+            <div class="card">
+                <img src="/Img/500px X 500px.jpg" alt="">  
+              <div>
+                <h2>9 Ano A</h2>
+                <button>Saber Mais</button>
+              </div>
+            </div>
+            <!-- 9B -->
+            <div class="card">
+              <img src="/Img/500px X 500px.jpg" alt="">  
+              <div>
+              <h2>9 Ano B</h2>
+              <button>Saber Mais</button>
+              </div>
+            </div>
+            <!-- yr -->
+            <div class="card">
+              <img src="/Img/500px X 500px.jpg" alt="">  
+              <div>
+              <h2>9 Ano B</h2>
+              <button>Saber Mais</button>
+              </div>
+            </div>
+            <!-- #te -->
+            <div class="card">
+              <img src="/Img/500px X 500px.jpg" alt="">  
+              <div>
+              <h2>9 Ano B</h2>
+              <button>Saber Mais</button>
+              </div>
+            </div>
+            <!-- ree -->
+            <div class="card">
+              <img src="/Img/500px X 500px.jpg" alt="">  
+              <div>
+              <h2>9 Ano B</h2>
+              <button>Saber Mais</button>
+              </div>
+            </div>
+            <div class="card">
+              <img src="/Img/500px X 500px.jpg" alt="">  
+              <div>
+              <h2>9 Ano B</h2>
+              <button>Saber Mais</button>
+              </div>
+            </div>
+          
+          </div>
+        </div>
+      </div>
+      </main>
+</body>
+</html>
